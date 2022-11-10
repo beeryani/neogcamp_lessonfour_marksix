@@ -9,3 +9,6 @@ function promptButton(){
 document.querySelector(".consoleButton").addEventListener('click', function clickFunction(){
     console.log("clicked!")
 })
+
+var textBoxValue = document.querySelector("textarea").value
+console.log(textBoxValue)

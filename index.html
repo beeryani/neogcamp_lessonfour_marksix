@@ -6,15 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Website of Pratyush Gupta</title>
 </head>
+<body>
 <p>
     <p> Click the following button to see the effect </p>        
       <form>  
          <input type = "button" value = "Alert" onclick = "alertButton();" />  
          <input type = "button" value = "Prompt" onclick = "promptButton();" />
          <input class = "consoleButton" type = "button" value = "Click!" />  
-      </form> 
-    </p>
+      </form>
+</p>
+<div>
+    <textarea id="story" name="story"
+            rows="5" cols="33">
+    It was a dark and stormy night... Adding text here
+    </textarea>
+</div>
+<div><input class = "enterButton" type = "button" value = "Enter!" onclick="console.log('Clicked!')"/></div>
     <script src="script.js">  
-    </script> 
+    </script>
 </body>
 </html>
