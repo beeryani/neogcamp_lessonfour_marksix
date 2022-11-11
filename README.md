@@ -6,5 +6,4 @@
 
 >Follow the instruction in LessonFour and build the same JS application.
 
-### ex01: setup
-Done!
+### Mock Server: [Link](https://24fda9bc-07a5-42ae-81bd-bf253724a318.mock.pstmn.io/beeryani)
