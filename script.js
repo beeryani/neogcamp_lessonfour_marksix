@@ -10,5 +10,7 @@ document.querySelector(".consoleButton").addEventListener('click', function clic
     console.log("clicked!")
 })
 
-var textBoxValue = document.querySelector("textarea").value
-console.log(textBoxValue)
+function fillValue(){
+    var textBoxValue = document.getElementById("input").value;
+    document.getElementById("output").innerHTML = textBoxValue;
+}
